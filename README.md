@@ -5,8 +5,6 @@
 ## Defines list
 
 * SITEPATH - main path aplication.
-* APP - folder applications. Example:  <SITEPATH>/app.
-* VIEW - folder templates.   Example:  <SITEPATH>/app/view.
-* An abstraction for sorting single results.
-* GridFS support for a Mongo filesystem.
-* Easy aggregation and distinct values.
+* APP  - folder applications  value:  <SITEPATH>/app
+* VIEW - folder templates     value:  <SITEPATH>/app/view
+* PUB  - folder static        value:  <SITEPATH>/pub
