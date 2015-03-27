@@ -14,11 +14,21 @@
 		}
 		
 
+		//maindir
+
 		if ($pos = strrpos(__DIR__, 'vendor'){
 			$dir = substr(__DIR__, 0, $pos);
 		}
-		elseif 
-			define('SITEPATH', __DIR__);
+		elseif (isset($_SERVER['DOCUMENT_ROOT']){
+			$dir = $_SERVER['DOCUMENT_ROOT'];
+		}
+		else
+		 	$dir = __DIR__;	
+
+		define('SITEPATH', $dir);
+
+		define('APP', SITEPATH.DIRECTORY_SEPARATOR.'APP'.DIRECTORY_SEPARATOR);
+		define('VIEW', APP.DIRECTORY_SEPARATOR.'views');
 
 		define('PUB', __DIR__.DIRECTORY_SEPARATOR);
 		define('IMGPATH', PUB.DIRECTORY_SEPARATOR.);
