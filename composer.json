@@ -1,0 +1,20 @@
+{
+    "name": "akdelf/defold",
+    "description": "Autoload define path",
+    "homepage": "https://github.com/akdelf/defold",
+    "keywords": ["php, define"],
+    "type": "library",
+    "license": "MIT",
+	"authors": [
+		{
+			"name": "AK Delfin",
+            "email": "masterforweb@hotmail.com"
+    	}
+	],
+	"require": {
+		"php": ">=5.2"
+	},
+    "autoload": {
+        "files": ["defold.php"]
+    }
+}
